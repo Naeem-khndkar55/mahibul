@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #585b5b;
+}
+#main {
+  width: 100%;
+  height: 71px;
+  position: relative;
+  background-color: silver;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgb(247, 241, 229);
+}
+.logo img {
+  height: 100px;
+  width: 150px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: poppins;
+}
+nav ul li a:hover {
+  background-color: #2adabc;
+  color: #fff;
+  box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.3);
+  transition: all ease 0.2s;
+}
+ 
+.say {
+  color: #39bfbd;
+  font-weight: 1000;
+  font-size: 2rem;
+  border-bottom: 2px solid #40c6c4;
+  transition: 0.5s;
+}
+/* my skills-------------------------- */
+.skills {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(247, 241, 229);
+  margin-top: -30px;
+  position: relative;
+}
+.skill-text h4 {
+  display: flex;
+  color: limegreen;
+  font-size: 25px;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  border-bottom: 2px solid lime;
+}
+.skill-text h2 {
+  display: flex;
+  font-family: "Pattaya", sans-serif;
+  font-size: 45px;
+  position: absolute;
+  top: 14%;
+  left: 35%;
+  bottom: 50px;
+}
+.skill-text p img {
+  width: 50px;
+  height: 50px;
+}
+.skill-text span {
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: impact;
+  line-height: 28px;
+}
+.skill-text p {
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 0px auto;
+  margin-top: 30px;
+  background-color: rgb(243, 174, 161);
+  width: 600px;
+  text-align: right;
+  box-shadow: 8px 10px 5px lightslategray;
+  font-family: "Pattaya", sans-serif;
+  transition: 0.5s;
+}
+
+ 

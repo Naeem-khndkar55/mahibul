@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #585b5b;
+}
+#main {
+  width: 100%;
+  height: 71px;
+  position: relative;
+  background-color: silver;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgb(247, 241, 229);
+}
+.logo img {
+  height: 100px;
+  width: 150px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: poppins;
+}
+nav ul li a:hover {
+  background-color: #2adabc;
+  color: #fff;
+  box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.3);
+  transition: all ease 0.2s;
+}
+
+.say {
+  color: #39bfbd;
+  font-weight: 1000;
+  font-size: 2rem;
+  border-bottom: 2px solid #40c6c4;
+  transition: 0.5s;
+}
+/* about------------------------------ */
+#profile {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+}
+
+.model {
+  width: 200px;
+  height: 250px;
+  box-shadow: 0px 0px 20px black;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+.model .pro {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.text {
+  position: absolute;
+  top: 43%;
+  left: 39%;
+}
+.text h1 {
+  font-size: 45px;
+  color: black;
+  font-family: "Pattaya", sans-serif;
+}
+.text span {
+  color: #ff3030;
+  box-shadow: 0px 0px 35px gray;
+}
+
+.text h3 {
+  font-style: italic;
+  font-size: xx-large;
+  font-weight: normal;
+  line-height: 0px;
+  color: black;
+  font-family: "Pattaya", sans-serif;
+}
+.text hr {
+  color: black;
+  line-height: 0%;
+}
+.text p {
+  font-size: 25px;
+  text-align: center;
+  font-style: italic;
+  color: #eeee00;
+  box-shadow: 0px 0px 25px gray;
+}

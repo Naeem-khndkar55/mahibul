@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #585b5b;
+}
+#main {
+  width: 100%;
+  height: 71px;
+  position: relative;
+  background-color: silver;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgb(247, 241, 229);
+}
+.logo img {
+  height: 100px;
+  width: 150px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: poppins;
+}
+nav ul li a:hover {
+  background-color: #2adabc;
+  color: #fff;
+  box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.3);
+  transition: all ease 0.2s;
+}
+
+.say {
+  color: #39bfbd;
+  font-weight: 1000;
+  font-size: 2rem;
+  border-bottom: 2px solid #40c6c4;
+  transition: 0.5s;
+}
+/* ------------------------------------------------contact us        section----------------------------------------------------------------------------------------------------------  */
+.contact {
+  width: 100vw;
+  height: auto;
+  background-color: rgb(247, 241, 229);
+  margin-top: -9px;
+  position: relative;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .contact {
+    height: auto;
+  }
+}
+.contact h1 {
+  font-size: 50px;
+  font-family: impact;
+  font-weight: normal;
+  color: #c44569;
+  text-align: center;
+}
+.contact hr {
+  width: 250px;
+  margin-top: -30px;
+}
+.contact p {
+  width: 30vw;
+  text-align: center;
+  font-family: "Pattaya", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin: 0px auto;
+  color: #34495e;
+  padding-bottom: 50px;
+}
+.main-location {
+  width: 80vw;
+  height: auto;
+  color: #34495e;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  transition: all 0.2s linear;
+}
+.main-location .location {
+  height: 250px;
+  background-color: #7f8fa6;
+  box-shadow: 0px 0px 20px #596275;
+  flex: 1 1 200px;
+  margin: 20px;
+  transition: 0.2s;
+}
+.main-location .location:hover {
+  transform: scale(1.01);
+}
+.main-location .location:first-child {
+  background-color: #fffa65;
+}
+.main-location .location:last-child {
+  background-color: #4cd137;
+}
+.main-location .location .fas,
+.far {
+  color: red;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-left: 45%;
+  line-height: -20px;
+  width: 180px;
+  height: 15px;
+}
+.main-location .location h4 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 0px;
+  line-height: 20px;
+  width: 500px;
+  height: 0px;
+}
+.main-location .location p {
+  color: black;
+  text-align: center;
+  margin: 0px auto 20px auto;
+  width: 350px;
+  height: 20px;
+  font-size: 24px;
+}
+/* ----form for contact---------- */
+.form {
+  width: 25vw;
+  height: 68vh;
+  background-color: #cd84f1;
+  margin: 0px auto -30px auto;
+  position: relative;
+  box-shadow: 0px 0px 15px #2c3a47;
+}
+.form:hover {
+  box-shadow: 0px 0px 15px black;
+}
+.form p {
+  font-size: 40px;
+  text-align: left;
+  margin: 30px 0px 0px 15px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.form input {
+  width: 20vw;
+  height: 7vh;
+  text-align: left;
+  margin-left: 11.5%;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #585b5b;
+  border-radius: 3%;
+  border: none;
+  outline-color: #a5b1c2;
+}
+
+.form input:last-child {
+  width: 20vw;
+  height: 13vh;
+  text-align: center;
+  margin-left: 11.5%;
+  margin-bottom: 30px;
+}
+.form a button {
+  padding: 13px 22px;
+  background-color: #ffcccc;
+  border-radius: 10%;
+  font-size: 22px;
+  margin: 20px 0px 80px 37%;
+  font-family: poppins;
+  text-transform: uppercase;
+}
+.form a button:hover {
+  background-color: #ffb8b8;
+  cursor: pointer;
+}
+/* -------fab and intagram---------- */
+.fav {
+  width: 100vw;
+  height: 350px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+.fav h4 {
+  font-size: 50px;
+  font-weight: lighter;
+  font-family: "Pattaya", sans-serif;
+  text-align: center;
+  line-height: 60px;
+}
+.fav .insta {
+  width: calc(200px +17vw);
+  height: 100px;
+  margin: 0px auto 80px auto;
+  text-align: center;
+}
+.fav .insta a {
+  font-size: 60px;
+  letter-spacing: 50px;
+  text-align: center;
+}

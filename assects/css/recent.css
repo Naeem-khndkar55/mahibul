@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #585b5b;
+}
+#main {
+  width: 100%;
+  height: 71px;
+  position: relative;
+  background-color: silver;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgb(247, 241, 229);
+}
+.logo img {
+  height: 100px;
+  width: 150px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: poppins;
+}
+nav ul li a:hover {
+  background-color: #2adabc;
+  color: #fff;
+  box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.3);
+  transition: all ease 0.2s;
+}
+
+.say {
+  color: #39bfbd;
+  font-weight: 1000;
+  font-size: 2rem;
+  border-bottom: 2px solid #40c6c4;
+  transition: 0.5s;
+}
+/*---------------------------------------------------------- recent project------------------- */
+.recent {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(247, 241, 229);
+}
+.recent h3 {
+  color: limegreen;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 0px;
+}
+.recent hr {
+  width: 150px;
+  text-align: center;
+}
+.recent h1 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+/* -------------parents---------------- */
+#work {
+  width: 85vw;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px auto 0px auto;
+
+  /* transition: all ease 0.2s linear; */
+}
+#work .recent-one {
+  height: 350px;
+  width: 30%;
+
+  box-shadow: 0px 0px 15px black;
+  margin: 15px;
+}
+#work .recent-one img:hover {
+  width: 105%;
+  height: 380px;
+}
+#work .recent-one img {
+  width: 100%;
+  height: 350px;
+  transition: 0.5s;
+}
